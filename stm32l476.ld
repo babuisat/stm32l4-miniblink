@@ -3,7 +3,6 @@
  *
  * Copyright (C) 2009 Uwe Hermann <uwe@hermann-uwe.de>
  * Copyright (C) 2011 Stephen Caudle <scaudle@doceme.com>
- * Copyright (C) 2017 En Shih <seanstone5923@gmail.com>
  *
  * This library is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
@@ -23,7 +22,7 @@
 MEMORY
 {
 	rom (rx) : ORIGIN = 0x08000000, LENGTH = 1024K
-	ram (rwx) : ORIGIN = 0x20000000, LENGTH = 128K
+	ram (rwx) : ORIGIN = 0x20000000, LENGTH = 96K
 }
 
 /* Include the common ld script. */
