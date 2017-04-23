@@ -36,7 +36,7 @@ int main(void)
 
 	gpio_setup();
 
-	/* Blink the LED (PB6) on the board. */
+	/* Blink the LED (PE8) on the board. */
 	while (1) {
 
 		/* Using API function gpio_toggle(): */
